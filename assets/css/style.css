@@ -68,3 +68,38 @@ button:hover {
     background-color: blue;
     cursor: pointer;
 }
+
+
+/* ESTILOS DEL EJERCICIO BUSCADOR TRADICIONAL*/
+.buscador-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+}
+
+.buscar {
+    border-radius: 0;
+    height: 46px;
+    background-color: blue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-color: none;
+    border-style: none;
+}
+
+.buscar:hover {
+    background-color: cyan;
+}
+
+
+/* ESTILOS DEL EJERCICIO BARRA DE NAVEGACION*/
